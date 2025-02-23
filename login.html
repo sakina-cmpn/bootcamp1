@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Register</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+    <div class="container">
+        <div id="loginForm" class="form-container active">
+            <h1>Login</h1>
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password"><br><br>
+            <button>Login</button>
+            <button class="toggle-btn" onclick="toggleForms()"><h3>Don't have an account? Register</h3></button>
+        </div>
+        <div id="registerForm" class="form-container">
+            <h2>Register</h2>
+            <input type="text" placeholder="Username">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <button>Register</button>
+            <button class="toggle-btn" onclick="toggleForms()"><h3>Already have an account? Login</h3></button>
+        </div>
+    </div>
+    
+    <script src="./login.js"></script>
+</body>
+</html>

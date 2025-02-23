@@ -1,0 +1,47 @@
+body
+{
+    text-align: center;
+    background-image: url(./camp_photos/scenery.jpeg);
+    padding-top: 15%;
+    padding-left: 40%;
+  
+}
+.block
+{
+    border: 4px solid ;
+    border-color: black;
+    align-content: center;
+    width: 50vh;
+    height: 55vh;
+    backdrop-filter: blur(10px);
+    background: transparent;
+     border-radius: 5px;
+    margin-bottom: 200vh;
+    
+}
+.loginbutton
+{
+    background-color:grey;
+    width: 38vh;
+    height: 6vh;
+}
+input
+{
+    width: 35vh;
+    height: 4vh;
+    align-self: center;
+    padding: 3px;
+    opacity: 0.9;
+}
+h1{
+    
+    text-size-adjust: 5px;
+    opacity: 0.9;
+}
+.toggle-btn
+{
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: blue;
+}
